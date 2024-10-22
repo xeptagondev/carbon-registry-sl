@@ -335,7 +335,7 @@ export const SLCFProgrammeCreationComponent = (props: any) => {
         }
         return undefined;
       })(),
-      proposedProjectCapacity: values?.projectCapacity,
+      proposedProjectCapacity: Number(values?.projectCapacity),
       speciesPlanted: 'test',
       projectDescription: 'test',
       projectStatus: values?.projectStatus,

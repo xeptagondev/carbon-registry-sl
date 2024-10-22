@@ -130,6 +130,7 @@ const App = () => {
                       element={<ValidationAgreementPage />}
                     />{' '}
                     <Route path="cmaForm/:id" element={<CMAFormPage />} />
+                    <Route path="validationReport/:id" element={<ValidationReportPage />} />
                   </Route>
                   <Route
                     path="/retirementManagement"
